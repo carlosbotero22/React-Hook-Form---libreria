@@ -16,7 +16,7 @@ function Formulario(props) {
     };
 
     return (
-      <div>
+      <Fragment>
         <form onSubmit={handleSubmit(onSubmit)}>
           <h1>React-Hook-Form</h1>
           <input
@@ -34,7 +34,7 @@ function Formulario(props) {
 
           <input className="btn btn-primary" type="submit" />
         </form>
-      </div>
+      </Fragment>
     );
   }
 export default Formulario;
